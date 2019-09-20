@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void handleImplicitIntent(View view) {
-
+        Intent intent = new Intent(this, ImplicitIntentActivity.class);
+        startActivity(intent);
     }
 }
